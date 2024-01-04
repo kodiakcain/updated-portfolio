@@ -35,7 +35,7 @@ function Resume() {
         </a>
         
         <div>
-        <iframe src="/CainClifton-ResumeCurr.jpg" width="1000" height="667" frameborder="0"></iframe>
+        <iframe src="/CainClifton-ResumeCurr.jpg" className='frame' frameborder="0"></iframe>
         </div>
         </div>
         </div>
