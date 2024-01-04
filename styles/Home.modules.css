@@ -4,7 +4,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 4vh; /* Adjust based on your design */
-    left: 31vh; /* Adjust based on your design */
+    left: 17vw; /* Adjust based on your design */
     color: white;
 }
 
@@ -12,7 +12,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 4vh; /* Adjust based on your design */
-    left: 40.5vh; /* Adjust based on your design */
+    left: 22vw; /* Adjust based on your design */
     color: grey;
 }
 
@@ -20,7 +20,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 5vh; /* Adjust based on your design */
-    right: 31vh; /* Adjust based on your design */
+    right: 17vw; /* Adjust based on your design */
     color: white;
 }
 
@@ -28,7 +28,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 5vh; /* Adjust based on your design */
-    right: 35vh; /* Adjust based on your design */
+    right: 20vw; /* Adjust based on your design */
     color: white;
 }
 
@@ -36,7 +36,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 5vh; /* Adjust based on your design */
-    right: 39vh; /* Adjust based on your design */
+    right: 23vw; /* Adjust based on your design */
     color: white;
 }
 
@@ -44,7 +44,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 40vh; /* Adjust based on your design */
-    left: 31vh; /* Adjust based on your design */
+    left: 16.75vw; /* Adjust based on your design */
     color: white;
     font-size: 5vh;
 }
@@ -53,7 +53,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 45vh; /* Adjust based on your design */
-    left: 31vh; /* Adjust based on your design */
+    left: 16.75vw; /* Adjust based on your design */
     color: white;
     font-size: 5vh;
 }
@@ -62,7 +62,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 45vh; /* Adjust based on your design */
-    left: 63vh; /* Adjust based on your design */
+    left: 34vw; /* Adjust based on your design */
     color: rgb(255, 12, 12); 
     font-size: 5vh;
 }
@@ -71,7 +71,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 55vh; /* Adjust based on your design */
-    left: 52vh; /* Adjust based on your design */
+    left: 28vw; /* Adjust based on your design */
     color: rgb(255, 255, 255);
 
 }
@@ -80,7 +80,7 @@
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
     top: 62.5vh; /* Adjust based on your design */
-    left: 56.5vh; /* Adjust based on your design */
+    left: 30.5vw; /* Adjust based on your design */
     color: rgb(255, 255, 255); 
 }
 
@@ -96,10 +96,10 @@
 
 .avatar {
     bottom: 0vh;
-    right: 0vh;
+    right: 0vw;
     position: fixed;
     height: 85vh;
-    width: 85vh;  
+    width: 50vw;  
 }
 
 .sideBarDiv {
@@ -109,7 +109,7 @@
     border-radius: 5px;
     color: white;
     position: fixed;
-    left: 2vh;
+    left: 2vw;
     top: 45vh;
     font-family: 'Exo 2';
 }
