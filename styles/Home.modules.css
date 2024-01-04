@@ -132,7 +132,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 4%; /* Adjust based on your design */
-        left: 24%; /* Adjust based on your design */
+        left: 23%; /* Adjust based on your design */
         color: grey;
         font-size: 20px;
     }
@@ -228,7 +228,7 @@
         right: 0%;
         position: fixed;
         height: 55%;
-        width: 25%;  
+        width: 38%;  
     }
     
     .sideBarDiv {
