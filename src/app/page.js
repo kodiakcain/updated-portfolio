@@ -30,11 +30,6 @@ export default function Home() {
       animate={controls}
       transition={{ duration: 0.25 }}
     >
-      <head>
-      <title>
-        Cain's Portfolio
-      </title>
-    </head>
       <header style={{top: '5vh'}}>
         <div style={{flexDirection: 'row', display: 'flex'}}>
           <div  className='topDiv' style={{display: 'flex', flexDirection: 'row', padding: '10px',}}>
