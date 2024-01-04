@@ -172,40 +172,26 @@
     .slogan {
         font-family: 'Exo 2';
         color: white;
+        font-size: 10px;
     }
     
     .sloganBelow {
         font-family: 'Exo 2';
         color: white;
+        font-size: 10px;
     }
     
     .sloganFinal {
         font-family: 'Exo 2';
         color: rgb(255, 12, 12); 
+        font-size: 10px;
     }
     
     .rotatingLogo {
         font-family: 'Exo 2';
         position: fixed;
         color: rgb(255, 255, 255); 
-    }
-    
-    .logoText {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 62.5%; /* Adjust based on your design */
-        left: 30.5%; /* Adjust based on your design */
-        color: rgb(255, 255, 255); 
-    }
-    
-    .skillsText {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 50%; /* Adjust based on your design */
-        right: 37%; /* Adjust based on your design */
-        color: rgb(255, 255, 255);
-        text-decoration: underline;
-    }
+    }  
     
     .javaLogo {
         font-family: 'Exo 2';
