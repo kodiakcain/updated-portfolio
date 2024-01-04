@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo 2:wght@500&display=swap');
+
+.sideBarDiv {
+    border-width: 1px;
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    left: 2%;
+    top: 45%;
+    font-family: 'Exo 2';
+}
+  
