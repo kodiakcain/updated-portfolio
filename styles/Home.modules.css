@@ -3,91 +3,87 @@
 .firstWordName {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 4%; /* Adjust based on your design */
-    left: 17%; /* Adjust based on your design */
+    top: 4vh; /* Adjust based on your design */
+    left: 31vh; /* Adjust based on your design */
     color: white;
 }
 
 .secondWordName {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 4%; /* Adjust based on your design */
-    left: 22%; /* Adjust based on your design */
+    top: 4vh; /* Adjust based on your design */
+    left: 40.5vh; /* Adjust based on your design */
     color: grey;
 }
 
 .githubStyle {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 5%; /* Adjust based on your design */
-    right: 17%; /* Adjust based on your design */
+    top: 5vh; /* Adjust based on your design */
+    right: 31vh; /* Adjust based on your design */
     color: white;
 }
 
 .linkedinStyle {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 5%; /* Adjust based on your design */
-    right: 19.5%; /* Adjust based on your design */
+    top: 5vh; /* Adjust based on your design */
+    right: 35vh; /* Adjust based on your design */
     color: white;
 }
 
 .gmailStyle {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 5%; /* Adjust based on your design */
-    right: 22%; /* Adjust based on your design */
+    top: 5vh; /* Adjust based on your design */
+    right: 39vh; /* Adjust based on your design */
     color: white;
 }
 
 .slogan {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 40%; /* Adjust based on your design */
-    left: 17%; /* Adjust based on your design */
+    top: 40vh; /* Adjust based on your design */
+    left: 31vh; /* Adjust based on your design */
     color: white;
+    font-size: 5vh;
 }
 
 .sloganBelow {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 45%; /* Adjust based on your design */
-    left: 17%; /* Adjust based on your design */
+    top: 45vh; /* Adjust based on your design */
+    left: 31vh; /* Adjust based on your design */
     color: white;
+    font-size: 5vh;
 }
 
 .sloganFinal {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 45%; /* Adjust based on your design */
-    left: 31.9%; /* Adjust based on your design */
+    top: 45vh; /* Adjust based on your design */
+    left: 63vh; /* Adjust based on your design */
     color: rgb(255, 12, 12); 
+    font-size: 5vh;
 }
 
 .rotatingLogo {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 55%; /* Adjust based on your design */
-    left: 28%; /* Adjust based on your design */
-    color: rgb(255, 255, 255); 
+    top: 55vh; /* Adjust based on your design */
+    left: 52vh; /* Adjust based on your design */
+    color: rgb(255, 255, 255);
+
 }
 
 .logoText {
     font-family: 'Exo 2';
     position: fixed; /* Fixed position */
-    top: 62.5%; /* Adjust based on your design */
-    left: 30.5%; /* Adjust based on your design */
+    top: 62.5vh; /* Adjust based on your design */
+    left: 56.5vh; /* Adjust based on your design */
     color: rgb(255, 255, 255); 
 }
 
-.skillsText {
-    font-family: 'Exo 2';
-    position: fixed; /* Fixed position */
-    top: 50%; /* Adjust based on your design */
-    right: 37%; /* Adjust based on your design */
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
 
 .javaLogo {
     font-family: 'Exo 2';
@@ -99,11 +95,11 @@
 }
 
 .avatar {
-    bottom: 0%;
-    right: 0%;
+    bottom: 0vh;
+    right: 0vh;
     position: fixed;
-    height: 80%;
-    width: 50%;  
+    height: 85vh;
+    width: 85vh;  
 }
 
 .sideBarDiv {
@@ -113,134 +109,8 @@
     border-radius: 5px;
     color: white;
     position: fixed;
-    left: 2%;
-    top: 45%;
+    left: 2vh;
+    top: 45vh;
     font-family: 'Exo 2';
 }
 
-@media only screen and (max-width: 768px) {
-    .firstWordName {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 4%; /* Adjust based on your design */
-        left: 10%; /* Adjust based on your design */
-        color: white;
-        font-size: 20px;
-    }
-    
-    .secondWordName {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 4%; /* Adjust based on your design */
-        left: 23%; /* Adjust based on your design */
-        color: grey;
-        font-size: 20px;
-    }
-    
-    .githubStyle {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 5%; /* Adjust based on your design */
-        right: 17%; /* Adjust based on your design */
-        color: white;
-    }
-    
-    .linkedinStyle {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 5%; /* Adjust based on your design */
-        right: 27%; /* Adjust based on your design */
-        color: white;
-    }
-    
-    .gmailStyle {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 5%; /* Adjust based on your design */
-        right: 37%; /* Adjust based on your design */
-        color: white;
-    }
-    
-    .slogan {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 40%; /* Adjust based on your design */
-        left: 17%; /* Adjust based on your design */
-        color: white;
-        font-size: 30px;
-    }
-    
-    .sloganBelow {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 50%; /* Adjust based on your design */
-        left: 17%; /* Adjust based on your design */
-        color: white;
-        font-size: 30px;
-    }
-    
-    .sloganFinal {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 55%; /* Adjust based on your design */
-        left: 17%; /* Adjust based on your design */
-        color: rgb(255, 12, 12);
-        font-size: 30px; 
-    }
-    
-    .rotatingLogo {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 70%; /* Adjust based on your design */
-        left: 24%; /* Adjust based on your design */
-        color: rgb(255, 255, 255); 
-        size: 20px;
-    }
-    
-    .logoText {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 73%; /* Adjust based on your design */
-        left: 26%; /* Adjust based on your design */
-        color: rgb(255, 255, 255); 
-    }
-    
-    .skillsText {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 50%; /* Adjust based on your design */
-        right: 37%; /* Adjust based on your design */
-        color: rgb(255, 255, 255);
-        text-decoration: underline;
-    }
-    
-    .javaLogo {
-        font-family: 'Exo 2';
-        position: fixed; /* Fixed position */
-        top: 55%; /* Adjust based on your design */
-        right: 37%; /* Adjust based on your design */
-        color: rgb(255, 255, 255);
-        text-decoration: underline;
-    }
-    
-    .avatar {
-        bottom: 0%;
-        right: 0%;
-        position: fixed;
-        height: 50%;
-        width: 38%;  
-    }
-    
-    .sideBarDiv {
-        border-width: 1px;
-        padding: 10px;
-        border-color: white;
-        border-radius: 5px;
-        color: white;
-        position: fixed;
-        left: 50%;
-        top: 17%;
-        font-family: 'Exo 2';
-    }
-    
-  }
