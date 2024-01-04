@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SiGhost } from "react-icons/si";
+import { SiGhost } from 'react-icons/si';
 
 const RotatingLogo = () => {
   const logoVariants = {
@@ -29,7 +29,7 @@ const RotatingLogo = () => {
         style={{ display: 'inline-block' }}
       >
         <div>
-          <SiGhost size={170} />
+          <SiGhost size={window.innerWidth <= 768 ? 50 : 170} />
         </div>
       </motion.div>
     </div>
