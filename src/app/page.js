@@ -47,12 +47,14 @@ export default function Home() {
           </div>
         </div>
         </header>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    
-      <div className="flex min-h-screen flex-col items-center justify-between p-24">
-        
-        <p className='text-4xl font-bold slogan'>Elevating concepts through</p>
-        <p className='text-4xl font-bold sloganBelow'>the power of <span className='sloganFinal'>digital innovation.</span></p>
+    <main className="flex min-h-screen flex-col justify-between p-24">
+        <div style={{display: 'flex', flexDirection: 'row', paddingTop: '30vh'}}>
+          <Sidebar></Sidebar>
+          <div style={{paddingLeft: '60px'}}>
+          <p className='text-4xl font-bold slogan'>Elevating concepts through</p>
+            <p className='text-4xl font-bold sloganBelow'>the power of <span className='sloganFinal'>digital innovation.</span></p>
+          </div>
+        </div>
         <div className='rotatingLogo'>
           <Link href='/Projects'>
 
@@ -63,8 +65,7 @@ export default function Home() {
         </div>
         
         <img src='/Cain.png' alt='Cain Image' className='avatar' />
-      </div>
-      <Sidebar></Sidebar>
+      
     </main>
     </motion.div>
   );
