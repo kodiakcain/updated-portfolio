@@ -6,9 +6,10 @@
     border-color: white;
     border-radius: 5px;
     color: white;
-    position: fixed;
-    left: 2%;
-    top: 45%;
     font-family: 'Exo 2', sans-serif;
+}
+
+@media only screen and (max-width: 768px) { 
+
 }
   
