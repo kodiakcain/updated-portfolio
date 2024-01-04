@@ -34,7 +34,7 @@ const RotatingLogo = () => {
   }
 
   const logoSize = windowSize.width <= 768 ? 50 : 170;
-  const textSize = windowSize.width <= 768 ? 10 : 25;
+  const textSize = windowSize.width <= 768 ? 6 : 25;
 
   const logoVariants = {
     initial: {
