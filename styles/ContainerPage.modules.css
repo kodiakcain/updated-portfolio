@@ -1,0 +1,21 @@
+.containerDiv {
+    border-width: 1px;
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    font-family: 'Exo 2';
+    max-width: 400px;
+}
+
+.containerDiv2 {
+    border-width: 1px;
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    font-family: 'Exo 2';
+    max-width: 400px;
+}

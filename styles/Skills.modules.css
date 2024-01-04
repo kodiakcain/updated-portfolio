@@ -11,4 +11,32 @@
     top: 45%;
     font-family: 'Exo 2';
 }
+
+.ContainerPage {
+    position: fixed;
+    left: 15%;
+    top: 20%;
+}
+
+.ContainerPage2 {
+    position: fixed;
+    left: 43%;
+    top: 20%;
+}
+
+.ContainerPage3 {
+    position: fixed;
+    left: 71%;
+    top: 20%;
+}
+
+.topWord {
+    font-family: 'Exo 2';
+    position: fixed; /* Fixed position */
+    top: 11%; /* Adjust based on your design */
+    left: 45%; /* Adjust based on your design */
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+}
   
