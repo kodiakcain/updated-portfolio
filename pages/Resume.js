@@ -34,7 +34,7 @@ function Resume() {
         <MdSaveAlt size={50} color={'white'}></MdSaveAlt>
         </a>
         
-        <div>
+        <div className='leftPad'>
         <iframe src="/CainClifton-ResumeCurr.jpg" className='frame' frameborder="0"></iframe>
         </div>
         </div>
