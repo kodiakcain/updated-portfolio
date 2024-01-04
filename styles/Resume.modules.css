@@ -41,12 +41,12 @@
     }
 
     .frame {
-        width: 1000px;
-        height: 666px;
+        width: 2200px;
+        height: 733px;
     }
 
     .leftPad {
-        padding-left: 20px;
+        padding-left: 40px;
     }
 }
   
