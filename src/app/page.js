@@ -50,7 +50,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between p-24">
         <div className='midDiv'>
           <Sidebar></Sidebar>
-          <div style={{paddingLeft: '60px'}}>
+          <div style={{paddingLeft: '55px'}}>
           <p className='text-4xl font-bold slogan'>Elevating concepts through</p>
             <p className='text-4xl font-bold sloganBelow'>the power of <span className='sloganFinal'>digital innovation.</span></p>
           </div>
