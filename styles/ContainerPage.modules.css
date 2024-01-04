@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo 2:wght@500&display=swap');
+
+
 .containerDiv {
     border-width: 1px;
     padding: 10px;
@@ -5,7 +8,7 @@
     border-radius: 5px;
     color: white;
     
-    font-family: 'Exo 2';
+    font-family: 'Exo 2', sans-serif;
     max-width: 400px;
 }
 
@@ -15,7 +18,7 @@
     border-color: white;
     border-radius: 5px;
     color: white;
-    font-family: 'Exo 2';
+    font-family: 'Exo 2', sans-serif;
     max-width: 400px;
 }
 
@@ -28,8 +31,8 @@
         border-radius: 5px;
         color: white;
         
-        font-family: 'Exo 2';
-        max-width: 40px;
+        font-family: 'Exo 2', sans-serif;
+        max-width: 400px;
     }
     
     .containerDiv2 {
@@ -38,7 +41,7 @@
         border-color: white;
         border-radius: 5px;
         color: white;
-        font-family: 'Exo 2';
-        max-width: 40px;
+        font-family: 'Exo 2', sans-serif;
+        max-width: 400px;
     }
 }

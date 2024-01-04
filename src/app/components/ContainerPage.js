@@ -1,6 +1,3 @@
-import React, { PureComponent } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
 import '../../../styles/ContainerPage.modules.css'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";

@@ -1,13 +1,10 @@
-import React, { PureComponent } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
 import '../../../styles/ContainerPage.modules.css'
 import { FaJava } from "react-icons/fa";
 
 
 const ContainerPage2 = () => {
   return (
-    <div className='containerDiv' style={{textAlign: 'center', height: '482px'}}>
+    <div className='containerDiv' style={{textAlign: 'center'}}>
         <p style={{fontSize: '40px'}}>Data Structures & Algorithms</p>
         <hr></hr>
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', paddingBottom: '10px', paddingTop: '10px', paddingLeft: '70px', paddingRight: '70px'}}>

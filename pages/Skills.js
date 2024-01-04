@@ -27,22 +27,26 @@ function Skills() {
       animate={controls}
       transition={{ duration: 0.75 }}
     >
-      <div className='flex min-h-screen flex-col items-center justify-between p-24'>
+      <div className='flex min-h-screen flex-col items-center justify-between p-12'>
         <main>
+        <div className='topWordPad'>
           <p className='topWord'>Relevant Skills</p>
-          <div>
-          <div className='ContainerPage'>
+        </div>
+          <div className='skillsOuter'>
+          <div className='sidePad2'>
+            <SidebarEdit />
+          </div>
+          <div className='sidePad'>
           <ContainerPage >
             
             </ContainerPage>
           </div>
-          <div className='ContainerPage2'>
+          <div className='sidePad'>
           <ContainerPage2></ContainerPage2>
           </div>
-          <div className='ContainerPage3'>
+          <div className='sidePad'>
             <ContainerPage3></ContainerPage3>
           </div>
-          <SidebarEdit />
           </div>
         </main>
       </div>

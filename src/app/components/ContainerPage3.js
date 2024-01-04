@@ -1,13 +1,8 @@
-import React, { PureComponent } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
 import '../../../styles/ContainerPage.modules.css'
-import { FaJava } from "react-icons/fa";
-
 
 const ContainerPage3 = () => {
   return (
-    <div className='containerDiv' style={{textAlign: 'center', height: '482px'}}>
+    <div className='containerDiv' style={{textAlign: 'center'}}>
         <p style={{fontSize: '40px'}}>Communication & Leadership</p>
         <hr></hr>
         <br></br>

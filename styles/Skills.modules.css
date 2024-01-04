@@ -6,37 +6,77 @@
     border-color: white;
     border-radius: 5px;
     color: white;
-    position: fixed;
-    left: 2%;
-    top: 45%;
-    font-family: 'Exo 2';
-}
-
-.ContainerPage {
-    position: fixed;
-    left: 15%;
-    top: 20%;
-}
-
-.ContainerPage2 {
-    position: fixed;
-    left: 43%;
-    top: 20%;
-}
-
-.ContainerPage3 {
-    position: fixed;
-    left: 71%;
-    top: 20%;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .topWord {
-    font-family: 'Exo 2';
-    position: fixed; /* Fixed position */
-    top: 11%; /* Adjust based on your design */
-    left: 45%; /* Adjust based on your design */
+    font-family: 'Exo 2', sans-serif;
     color: white;
     font-size: 50px;
     text-decoration: underline;
 }
+
+.skillsOuter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
+}
   
+.sidePad {
+    padding: 15px;
+}
+
+.sidePad2 {
+    padding-right: 50px;
+}
+
+.topWordPad {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 6%;
+}
+
+@media only screen and (max-width: 768px) { 
+    
+    .sideBarDiv {
+        border-width: 1px;
+        padding: 10px;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        position: fixed;
+        left: 2%;
+        top: 45;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .topWord {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    
+    .skillsOuter {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+        flex-direction: column;
+    }
+      
+    .sidePad {
+        padding: 15px;
+    }
+    
+    .topWordPad {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-left: 20px;
+        padding-top: 6%;
+    }
+}
