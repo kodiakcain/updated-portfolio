@@ -11,21 +11,28 @@ const RotatingLogo = () => {
       rotate: 360,
       transition: {
         duration: 20,
-        repeat: Infinity, 
+        repeat: Infinity,
         ease: 'linear',
       },
     },
   };
 
   return (
-    <motion.div
-      className="circular-logo"
-      variants={logoVariants}
-      initial="initial"
-      animate="animate"
-    >
-      <div><SiGhost size={170}></SiGhost></div>
-    </motion.div>
+    <div style={{ position: 'relative', display: 'inline-block' }}>
+      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+        <p style={{ margin: 0, fontSize: '16px', fontWeight: 'bold' }}>Projects</p>
+      </div>
+      <motion.div
+        variants={logoVariants}
+        initial="initial"
+        animate="animate"
+        style={{ display: 'inline-block' }}
+      >
+        <div>
+          <SiGhost size={170} />
+        </div>
+      </motion.div>
+    </div>
   );
 };
 

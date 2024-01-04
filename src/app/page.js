@@ -56,12 +56,9 @@ export default function Home() {
           </div>
         </div>
         <div className='rotatingLogo'>
-          <Link href='/Projects'>
-
+        <Link href='/Projects'>
           <RotatingLogo></RotatingLogo>
-          <p className=' logoText text-2xl font-bold'>Projects</p>
-          </Link>
-          
+          </Link>   
         </div>
         
         <img src='/Cain.png' alt='Cain Image' className='avatar' />
