@@ -37,12 +37,16 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 500px;
     }
 
     .frame {
-        width: 700px;
-        height: 270px;
+        width: 1000px;
+        height: 666px;
+    }
+
+    .leftPad {
+        padding-left: 20px;
     }
 }
   
