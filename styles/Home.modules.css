@@ -182,8 +182,8 @@
     .sloganFinal {
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
-        top: 60%; /* Adjust based on your design */
-        left: 31.9%; /* Adjust based on your design */
+        top: 55%; /* Adjust based on your design */
+        left: 17%; /* Adjust based on your design */
         color: rgb(255, 12, 12);
         font-size: 30px; 
     }
@@ -191,8 +191,8 @@
     .rotatingLogo {
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
-        top: 55%; /* Adjust based on your design */
-        left: 28%; /* Adjust based on your design */
+        top: 80%; /* Adjust based on your design */
+        left: 24%; /* Adjust based on your design */
         color: rgb(255, 255, 255); 
         size: 20px;
     }
@@ -200,8 +200,8 @@
     .logoText {
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
-        top: 62.5%; /* Adjust based on your design */
-        left: 30.5%; /* Adjust based on your design */
+        top: 80%; /* Adjust based on your design */
+        left: 24%; /* Adjust based on your design */
         color: rgb(255, 255, 255); 
     }
     
