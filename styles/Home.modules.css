@@ -116,7 +116,7 @@
 .midDiv {
     display: flex; 
     flex-direction: row;
-    padding-top: 30vh;
+    padding-top: 37vh;
 }
 
 .rotateText {
@@ -125,8 +125,16 @@
     font-weight: 'bold'; 
 }
 
+.leftPad {
+    padding-left: 115px;
+}
+
 
 @media only screen and (max-width: 768px) {
+
+    .leftPad {
+        padding-left: 40px;
+    }
 
     .rotateText {
         margin: 0; 
@@ -236,7 +244,7 @@
     .midDiv {
         display: flex; 
         flex-direction: row;
-        padding-top: 5vh;
+        padding-top: 9vh;
     }
     .p-24 {
         color: white;
