@@ -30,6 +30,7 @@ function Skills() {
       <div className='flex min-h-screen flex-col items-center justify-between p-24'>
         <main>
           <p className='topWord'>Relevant Skills</p>
+          <div>
           <div className='ContainerPage'>
           <ContainerPage >
             
@@ -42,6 +43,7 @@ function Skills() {
             <ContainerPage3></ContainerPage3>
           </div>
           <SidebarEdit />
+          </div>
         </main>
       </div>
     </motion.div>

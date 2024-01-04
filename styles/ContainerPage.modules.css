@@ -4,7 +4,7 @@
     border-color: white;
     border-radius: 5px;
     color: white;
-    position: fixed;
+    
     font-family: 'Exo 2';
     max-width: 400px;
 }
@@ -15,7 +15,30 @@
     border-color: white;
     border-radius: 5px;
     color: white;
-    position: fixed;
     font-family: 'Exo 2';
     max-width: 400px;
+}
+
+@media only screen and (max-width: 768px) { 
+
+    .containerDiv {
+        border-width: 1px;
+        padding: 10px;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        
+        font-family: 'Exo 2';
+        max-width: 40px;
+    }
+    
+    .containerDiv2 {
+        border-width: 1px;
+        padding: 10px;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Exo 2';
+        max-width: 40px;
+    }
 }
