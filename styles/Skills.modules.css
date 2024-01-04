@@ -17,25 +17,20 @@
 }
 
 .skillsOuter {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-    padding-left: 50px;
-}
-  
-.sidePad {
-    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.sidePad2 {
-    padding-right: 50px;
-}
+
 
 .topWordPad {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-left: 13vw;
+    padding-left: 11vw;
     padding-top: 6%;
 }
 
@@ -59,15 +54,11 @@
     }
     
     .skillsOuter {
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         display: flex;
         padding-left: 10px;
         flex-direction: column;
-    }
-      
-    .sidePad {
-        padding: 15px;
     }
     
     .topWordPad {
