@@ -244,7 +244,7 @@
     .midDiv {
         display: flex; 
         flex-direction: row;
-        padding-top: 9vh;
+        padding-top: 20vh;
     }
     .p-24 {
         color: white;
