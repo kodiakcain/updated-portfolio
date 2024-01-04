@@ -1,8 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { SiGhost } from 'react-icons/si';
 
 const RotatingLogo = () => {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    // Initial size
+    handleResize();
+
+    // Event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  // Check if window is defined (client side)
+  if (typeof window === 'undefined') {
+    return null; // or some fallback content
+  }
+
+  const logoSize = windowSize.width <= 768 ? 50 : 170;
+
   const logoVariants = {
     initial: {
       rotate: 0,
@@ -29,7 +61,7 @@ const RotatingLogo = () => {
         style={{ display: 'inline-block' }}
       >
         <div>
-          <SiGhost size={window.innerWidth <= 768 ? 50 : 170} />
+          <SiGhost size={logoSize} />
         </div>
       </motion.div>
     </div>
