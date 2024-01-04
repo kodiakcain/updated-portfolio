@@ -123,7 +123,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 4%; /* Adjust based on your design */
-        left: 17%; /* Adjust based on your design */
+        left: 14%; /* Adjust based on your design */
         color: white;
         font-size: 20px;
     }
@@ -132,7 +132,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 4%; /* Adjust based on your design */
-        left: 22%; /* Adjust based on your design */
+        left: 23%; /* Adjust based on your design */
         color: grey;
         font-size: 20px;
     }
@@ -149,7 +149,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 5%; /* Adjust based on your design */
-        right: 23%; /* Adjust based on your design */
+        right: 25%; /* Adjust based on your design */
         color: white;
     }
     
@@ -157,7 +157,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 5%; /* Adjust based on your design */
-        right: 29%; /* Adjust based on your design */
+        right: 33%; /* Adjust based on your design */
         color: white;
     }
     
@@ -223,8 +223,8 @@
         bottom: 0%;
         right: 0%;
         position: fixed;
-        height: 80%;
-        width: 50%;  
+        height: 30%;
+        width: 12%;  
     }
     
     .sideBarDiv {
@@ -235,7 +235,7 @@
         color: white;
         position: fixed;
         left: 2%;
-        top: 45%;
+        top: 20%;
         font-family: 'Exo 2';
     }
     
