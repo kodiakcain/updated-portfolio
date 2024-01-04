@@ -30,17 +30,27 @@ export default function Home() {
       animate={controls}
       transition={{ duration: 0.25 }}
     >
+      <header style={{top: '5vh'}}>
+        <div style={{flexDirection: 'row', display: 'flex'}}>
+          <div  className='topDiv' style={{display: 'flex', flexDirection: 'row', padding: '10px',}}>
+          <p className={`text-4xl font-bold firstWordName`}>cain </p>
+          <p className={`text-4xl font-bold secondWordName`}>clifton</p>
+          </div>
+          <div className='topDivLinks'>
+            <a href="https://github.com/kodiakcain" target='_blank' className='text-4xl font-bold linkPad'>
+            <GithubButton></GithubButton>
+            </a>
+            <a href="https://www.linkedin.com/in/cain-clifton/" target='_blank' className='text-4xl font-bold linkPad'>
+            <LinkedinButton></LinkedinButton>
+            </a>
+            <a href="mailto:americancain@gmail.com?subject=Message from Portfolio" target='_blank' className='text-4xl font-bold'><GmailButton></GmailButton></a>
+          </div>
+        </div>
+        </header>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    
       <div className="flex min-h-screen flex-col items-center justify-between p-24">
-        <p className={`text-4xl font-bold firstWordName`}>cain</p>
-        <p className={`text-4xl font-bold secondWordName`}>clifton</p>
-        <a href="https://github.com/kodiakcain" target='_blank'>
-        <GithubButton></GithubButton>
-        </a>
-        <a href="https://www.linkedin.com/in/cain-clifton/" target='_blank'>
-        <LinkedinButton></LinkedinButton>
-        </a>
-        <a href="mailto:americancain@gmail.com?subject=Message from Portfolio" target='_blank'><GmailButton></GmailButton></a>
+        
         <p className='text-4xl font-bold slogan'>Elevating concepts through</p>
         <p className='text-4xl font-bold sloganBelow'>the power of <span className='sloganFinal'>digital innovation.</span></p>
         <div className='rotatingLogo'>
