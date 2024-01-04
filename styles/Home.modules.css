@@ -123,7 +123,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 4%; /* Adjust based on your design */
-        left: 14%; /* Adjust based on your design */
+        left: 10%; /* Adjust based on your design */
         color: white;
         font-size: 20px;
     }
@@ -132,7 +132,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 4%; /* Adjust based on your design */
-        left: 23%; /* Adjust based on your design */
+        left: 24%; /* Adjust based on your design */
         color: grey;
         font-size: 20px;
     }
@@ -149,7 +149,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 5%; /* Adjust based on your design */
-        right: 25%; /* Adjust based on your design */
+        right: 27%; /* Adjust based on your design */
         color: white;
     }
     
@@ -157,7 +157,7 @@
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
         top: 5%; /* Adjust based on your design */
-        right: 33%; /* Adjust based on your design */
+        right: 37%; /* Adjust based on your design */
         color: white;
     }
     
@@ -167,6 +167,7 @@
         top: 40%; /* Adjust based on your design */
         left: 17%; /* Adjust based on your design */
         color: white;
+        font-size: 30px;
     }
     
     .sloganBelow {
@@ -175,6 +176,7 @@
         top: 45%; /* Adjust based on your design */
         left: 17%; /* Adjust based on your design */
         color: white;
+        font-size: 30px;
     }
     
     .sloganFinal {
@@ -182,7 +184,8 @@
         position: fixed; /* Fixed position */
         top: 45%; /* Adjust based on your design */
         left: 31.9%; /* Adjust based on your design */
-        color: rgb(255, 12, 12); 
+        color: rgb(255, 12, 12);
+        font-size: 30px; 
     }
     
     .rotatingLogo {
@@ -191,6 +194,8 @@
         top: 55%; /* Adjust based on your design */
         left: 28%; /* Adjust based on your design */
         color: rgb(255, 255, 255); 
+        height: 20px;
+        width: 20px;
     }
     
     .logoText {
@@ -223,8 +228,8 @@
         bottom: 0%;
         right: 0%;
         position: fixed;
-        height: 30%;
-        width: 12%;  
+        height: 55%;
+        width: 25%;  
     }
     
     .sideBarDiv {
