@@ -191,6 +191,9 @@
         font-family: 'Exo 2';
         position: fixed;
         color: rgb(255, 255, 255); 
+        left: 200px; 
+        position: fixed;
+        top: 200px;
     }  
     
     .javaLogo {
