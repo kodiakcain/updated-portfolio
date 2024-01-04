@@ -3,6 +3,7 @@ import SidebarEdit from '../src/app/components/SidebarEdit'; // Adjust the path 
 import '../styles/Resume.modules.css'; // Create a module CSS file for your Skills page
 import '../src/app/globals.css'
 import { motion, useAnimation } from 'framer-motion';
+import { MdSaveAlt } from "react-icons/md";
 
 function Resume() {
 
@@ -24,10 +25,15 @@ function Resume() {
       animate={controls}
       transition={{ duration: 0.75 }}
     >
-    <div className='flex min-h-screen flex-col items-center justify-between p-24'>
+    <div className='flex min-h-screen flex-col items-center justify-between p-24' style={{justifyContent: 'center', alignItems: 'center', paddingLeft: '600px'}}>
       <main>
-        {/* Your Skills page content goes here */}
-        <h1>Resume</h1>
+        <a href="/CainClifton-ResumeCurr.jpg" download="CainClifton-ResumeCurr.jpg">
+        <MdSaveAlt size={50} color={'white'}></MdSaveAlt>
+        </a>
+        
+        <div>
+        <iframe src="/CainClifton-ResumeCurr.jpg" width="1000" height="667" frameborder="0"></iframe>
+        </div>
         <SidebarEdit/>
       </main>
     </div>
