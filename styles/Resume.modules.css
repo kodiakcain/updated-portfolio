@@ -9,7 +9,39 @@
     font-family: 'Exo 2', sans-serif;
 }
 
-@media only screen and (max-width: 768px) { 
+.ResumeTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
 
+.frame {
+    width: 1000px;
+    height: 667px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .sideBarDiv {
+        border-width: 1px;
+        padding: 10px;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+    }
+
+    .ResumeTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .frame {
+        width: 300px;
+        height: 100px;
+    }
 }
   

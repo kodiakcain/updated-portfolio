@@ -25,8 +25,11 @@ function Resume() {
       animate={controls}
       transition={{ duration: 0.75 }}
     >
-    <div className='flex min-h-screen flex-col items-center justify-between p-24' style={{justifyContent: 'center', alignItems: 'center', paddingLeft: '600px'}}>
+    <div className='flex min-h-screen flex-col items-center justify-between p-24'>
       <main>
+        <div className='ResumeTop'>
+        <SidebarEdit/>
+        <div>
         <a href="/CainClifton-ResumeCurr.jpg" download="CainClifton-ResumeCurr.jpg">
         <MdSaveAlt size={50} color={'white'}></MdSaveAlt>
         </a>
@@ -34,7 +37,8 @@ function Resume() {
         <div>
         <iframe src="/CainClifton-ResumeCurr.jpg" width="1000" height="667" frameborder="0"></iframe>
         </div>
-        <SidebarEdit/>
+        </div>
+        </div>
       </main>
     </div>
     </motion.div>
