@@ -34,6 +34,7 @@ const RotatingLogo = () => {
   }
 
   const logoSize = windowSize.width <= 768 ? 50 : 170;
+  const textSize = windowSize.width <= 768 ? 10 : 25;
 
   const logoVariants = {
     initial: {
@@ -52,7 +53,7 @@ const RotatingLogo = () => {
   return (
     <div style={{ position: 'relative', display: 'inline-block' }}>
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-        <p style={{ margin: 0, fontSize: '25px', fontWeight: 'bold' }}>Projects</p>
+        <p style={{ margin: 0, fontSize: {textSize}, fontWeight: 'bold' }}>Projects</p>
       </div>
       <motion.div
         variants={logoVariants}
