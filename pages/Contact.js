@@ -3,6 +3,7 @@ import SidebarEdit from '../src/app/components/SidebarEdit'; // Adjust the path 
 import '../styles/Contact.modules.css'; // Create a module CSS file for your Skills page
 import '../src/app/globals.css'
 import { motion, useAnimation } from 'framer-motion';
+import { TbBrandGmail } from "react-icons/tb";
 
 
 function Contact() {
@@ -24,11 +25,17 @@ function Contact() {
       animate={controls}
       transition={{ duration: 0.75 }}
     >
-    <div className='flex min-h-screen flex-col items-center justify-between p-24'>
+    <div className='flex min-h-screen flex-col items-center justify-between'>
       <main>
-        {/* Your Skills page content goes here */}
+        <div className='contactDiv'>
         <h1>Contact</h1>
+        </div>
+        <div className='midContact'>
+        <div  className='widthEd'>
         <SidebarEdit/>
+        </div>
+        <TbBrandGmail size={40} className='p-24' color='white'></TbBrandGmail>
+        </div>
       </main>
     </div>
     </motion.div>

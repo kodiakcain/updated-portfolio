@@ -8,4 +8,30 @@
     color: white;
     font-family: 'Exo 2', sans-serif;
 }
+
+.contactDiv {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 200px;
+    text-decoration: underline;
+}
+
+.widthEd {
+    width: fit-content;
+    padding-top:50px;
+    display: flex;
+    padding-left: 30px;
+
+}
+
+.midContact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
   
