@@ -43,8 +43,9 @@
     }
 
     .frame {
-        width: 50vw;
-        height: 17vh;
+        width: 500vw;
+        height: 166vh;
+        overflow: hidden;
     }
 
     .leftPad {
