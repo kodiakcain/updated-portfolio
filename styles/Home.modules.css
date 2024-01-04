@@ -173,7 +173,7 @@
     .sloganBelow {
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
-        top: 45%; /* Adjust based on your design */
+        top: 50%; /* Adjust based on your design */
         left: 17%; /* Adjust based on your design */
         color: white;
         font-size: 30px;
@@ -182,7 +182,7 @@
     .sloganFinal {
         font-family: 'Exo 2';
         position: fixed; /* Fixed position */
-        top: 45%; /* Adjust based on your design */
+        top: 60%; /* Adjust based on your design */
         left: 31.9%; /* Adjust based on your design */
         color: rgb(255, 12, 12);
         font-size: 30px; 
@@ -194,8 +194,7 @@
         top: 55%; /* Adjust based on your design */
         left: 28%; /* Adjust based on your design */
         color: rgb(255, 255, 255); 
-        height: 20px;
-        width: 20px;
+        size: 20px;
     }
     
     .logoText {
