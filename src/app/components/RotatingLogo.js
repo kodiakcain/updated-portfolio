@@ -8,6 +8,17 @@ const RotatingLogo = () => {
     height: undefined,
   });
 
+  const buttonVariants = {
+    rest: {
+      scale: 1,
+      boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.1)',
+    },
+    hover: {
+      scale: 1.1,
+      boxShadow: '0px 0px 16px rgba(0, 0, 0, 0.2)',
+    },
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setWindowSize({
@@ -51,6 +62,12 @@ const RotatingLogo = () => {
   };
 
   return (
+    <motion.button
+      variants={buttonVariants}
+      whileHover="hover"
+      whileTap="rest"
+      className='linkedinStyle'
+    >
     <div style={{ position: 'relative', display: 'inline-block' }}>
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
         <p style={{ margin: 0, fontSize: {textSize}, fontWeight: 'bold' }}>Projects</p>
@@ -66,6 +83,7 @@ const RotatingLogo = () => {
         </div>
       </motion.div>
     </div>
+    </motion.button>
   );
 };
 
