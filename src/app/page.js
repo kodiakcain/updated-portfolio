@@ -32,7 +32,7 @@ export default function Home() {
     >
       <header style={{top: '5vh'}}>
         <head>
-          <title>Cain's Portfolio</title>
+          <title>Cains Portfolio</title>
         </head>
         <div style={{flexDirection: 'row', display: 'flex'}}>
           <div  className='topDiv' style={{display: 'flex', flexDirection: 'row', padding: '10px',}}>
