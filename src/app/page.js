@@ -31,6 +31,9 @@ export default function Home() {
       transition={{ duration: 0.25 }}
     >
       <header style={{top: '5vh'}}>
+        <head>
+          <title>Cain's Portfolio</title>
+        </head>
         <div style={{flexDirection: 'row', display: 'flex'}}>
           <div  className='topDiv' style={{display: 'flex', flexDirection: 'row', padding: '10px',}}>
           <p className={`text-4xl font-bold firstWordName`}>cain </p>
