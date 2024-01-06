@@ -18,7 +18,7 @@ const ContainerPage4 = () => {
         <br></br>
         <h1><u>Future Plans</u></h1>
             <p>I would like to add <b><u>Framer Motion</u></b>, <b><u>TailwindCSS</u></b>, and add
-            <b><u>security rules to Firebas Firestore database</u></b>.</p>
+            <b><u> security rules to Firebas Firestore database</u></b>.</p>
           </div>
          
   );
