@@ -37,6 +37,7 @@ export default function Home() {
         <div className='tsparticles'></div>
       </div>
       <header style={{ top: '5vh' }}>
+        <title>Cains Portfolio</title>
         <div className='topDiv' style={{ display: 'flex', flexDirection: 'row', padding: '10px' }}>
           <p className={`text-4xl font-bold firstWordName`}>cain </p>
           <p className={`text-4xl font-bold secondWordName`}>clifton</p>
