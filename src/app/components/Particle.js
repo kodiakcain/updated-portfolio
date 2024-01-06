@@ -44,7 +44,7 @@ const Particle = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 75,
+              distance: 50,
               duration: 0.4,
             },
           },
@@ -62,12 +62,12 @@ const Particle = () => {
           },
           move: {
             direction: "none",
-            enable: false,
+            enable: true,
             outModes: {
               default: "bounce",
             },
             random: false,
-            speed: 0,
+            speed: 0.1,
             straight: false,
           },
           number: {
