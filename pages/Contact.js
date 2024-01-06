@@ -5,6 +5,7 @@ import '../src/app/globals.css'
 import { motion, useAnimation } from 'framer-motion';
 import { TbBrandGmail } from "react-icons/tb";
 import LinkedinButton from '../src/app/components/LinkedinButton'
+import GmailButton from '../src/app/components/GmailButton'
 
 
 function Contact() {
@@ -35,12 +36,16 @@ function Contact() {
           <div  className='widthEd'>
           <SidebarEdit/>
             <div className='logoMove'>
-            <TbBrandGmail size={40} className='p-24' color='white'></TbBrandGmail>
+              
+            <a href="mailto:americancain@gmail.com?subject=Message from Portfolio" target='_blank'><TbBrandGmail
+            size={33} color='white' className='p-24'></TbBrandGmail></a>
+            <a href="https://www.linkedin.com/in/cain-clifton/" target='_blank'>
             <LinkedinButton size={40} color='white' className='p-24'></LinkedinButton>
+            </a>
             </div>
           </div>
         </div>
-      </main>
+      </main> 
     </div>
     </motion.div>
   );
