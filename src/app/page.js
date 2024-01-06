@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import Particle from './components/Particle'
 
 export default function Home() {
 
@@ -35,6 +36,11 @@ export default function Home() {
           <title>Cains Portfolio</title>
         </head>
         <div style={{flexDirection: 'row', display: 'flex'}}>
+        <div className='particlets'>
+          <Particle></Particle>
+        </div>
+        <div className='tsparticles'>
+        </div>
           <div  className='topDiv' style={{display: 'flex', flexDirection: 'row', padding: '10px',}}>
           <p className={`text-4xl font-bold firstWordName`}>cain </p>
           <p className={`text-4xl font-bold secondWordName`}>clifton</p>
@@ -54,6 +60,7 @@ export default function Home() {
         <div className='midDiv'>
           <div style={{paddingRight: '10px'}}>
           <Sidebar ></Sidebar>
+          
           </div>
           <div className='leftPad'>
           <p className='text-4xl font-bold slogan'>Elevating concepts through</p>
@@ -67,8 +74,8 @@ export default function Home() {
         </div>
         
         <img src='/Cain.png' alt='Cain Image' className='avatar' />
-      
     </main>
+    
     </motion.div>
   );
 }
