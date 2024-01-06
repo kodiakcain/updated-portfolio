@@ -20,7 +20,7 @@ const GithubButton = () => {
       whileTap="rest"
       className='linkedinStyle'
     >
-      <FaLinkedin size={30} />
+      <FaLinkedin size={30} color='white' />
     </motion.button>
   );
 };

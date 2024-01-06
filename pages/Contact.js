@@ -4,6 +4,7 @@ import '../styles/Contact.modules.css'; // Create a module CSS file for your Ski
 import '../src/app/globals.css'
 import { motion, useAnimation } from 'framer-motion';
 import { TbBrandGmail } from "react-icons/tb";
+import LinkedinButton from '../src/app/components/LinkedinButton'
 
 
 function Contact() {
@@ -31,10 +32,13 @@ function Contact() {
         <h1>Contact</h1>
         </div>
         <div className='midContact'>
-        <div  className='widthEd'>
-        <SidebarEdit/>
-        </div>
-        <TbBrandGmail size={40} className='p-24' color='white'></TbBrandGmail>
+          <div  className='widthEd'>
+          <SidebarEdit/>
+            <div className='logoMove'>
+            <TbBrandGmail size={40} className='p-24' color='white'></TbBrandGmail>
+            <LinkedinButton size={40} color='white' className='p-24'></LinkedinButton>
+            </div>
+          </div>
         </div>
       </main>
     </div>

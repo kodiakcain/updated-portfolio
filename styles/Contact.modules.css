@@ -34,4 +34,26 @@
     flex-direction: row;
     align-items: center;
 }
+
+.logoMove {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    justify-content: center;
+    width: 82vw;
+    
+    
+}
+
+@media only screen and (max-width: 768px) {  
+    .logoMove {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        justify-content: center;
+        width: 44vw;
+        
+        
+    }
+}
   
