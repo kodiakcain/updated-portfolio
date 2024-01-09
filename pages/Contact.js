@@ -24,6 +24,9 @@ function Contact() {
     }
   }, [isMounted, controls]);
 
+  const axios = require("axios");
+  const API_KEY = "your-mailslurp-api-key";
+
   return (
     //Animation for button
     <motion.div
