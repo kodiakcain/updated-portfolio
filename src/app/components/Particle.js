@@ -27,7 +27,7 @@ const Particle = () => {
         },
         fpsLimit: 120,
         fullScreen: {
-          enable: true, // Disable fullscreen
+          enable: true,
         },
         interactivity: {
           events: {
@@ -56,7 +56,7 @@ const Particle = () => {
           },
           links: {
             color: "#8e24aa",
-            distance: 100, // Adjust the distance between particles
+            distance: 100, 
             enable: true,
             opacity: 0.25,
             width: 1,
@@ -75,13 +75,13 @@ const Particle = () => {
             density: {
               enable: true,
             },
-            value: 150, // Adjust the number of particles
+            value: 150, 
           },
           opacity: {
             value: 0.25,
           },
           shape: {
-            type: "circle", // Change shape to triangle
+            type: "circle", 
           },
           size: {
             value: { min: 1, max: 5 },

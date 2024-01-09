@@ -30,21 +30,17 @@ const RotatingLogo = () => {
       });
     };
 
-    // Initial size
     handleResize();
 
-    // Event listener for window resize
     window.addEventListener('resize', handleResize);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  // Check if window is defined (client side)
   if (typeof window === 'undefined') {
-    return null; // or some fallback content
+    return null;
   }
 
   //adjust size based on width of screen
