@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 
-const GithubButton = () => {
+//Button that links to Github
+const GmailButton = () => {
+
+  //Hover animation
   const buttonVariants = {
     rest: {
       scale: 1,
@@ -14,6 +17,7 @@ const GithubButton = () => {
   };
 
   return (
+    //Animation
     <motion.button
       variants={buttonVariants}
       whileHover="hover"
@@ -25,4 +29,4 @@ const GithubButton = () => {
   );
 };
 
-export default GithubButton;
+export default GmailButton;

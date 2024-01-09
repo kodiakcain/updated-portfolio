@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import SidebarEdit from '../src/app/components/SidebarEdit'; // Adjust the path accordingly
-import '../styles/Resume.modules.css'; // Create a module CSS file for your Skills page
-import '../src/app/globals.css'
+import SidebarEdit from '../src/app/components/SidebarEdit'; 
+import '../styles/Resume.modules.css'; 
+import '../src/app/globals.css';
 import { motion, useAnimation } from 'framer-motion';
 import { MdSaveAlt } from "react-icons/md";
 
+//Resume page
 function Resume() {
 
-    const [isMounted, setIsMounted] = useState(false);
+  //Hook for mounting
+  const [isMounted, setIsMounted] = useState(false);
   const controls = useAnimation();
 
+  //Set mounted
   useEffect(() => {
     setIsMounted(true);
   }, []);
@@ -20,6 +23,7 @@ function Resume() {
     }
   }, [isMounted, controls]);
   return (
+    //Animation on button
     <motion.div
       initial={{ opacity: 0 }}
       animate={controls}
@@ -35,7 +39,7 @@ function Resume() {
         </a>
         
         <div className='leftPad'>
-        <iframe src="/CainClifton-ResumeCurr.jpg" className='frame' frameborder="100" allowFullScreen></iframe>
+        <iframe src="/CainClifton-ResumeCurr.jpg" className='frame' title='resume' allowFullScreen></iframe>
         </div>
         </div>
         </div>

@@ -6,6 +6,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 
+
+//First Container in Skills
 const ContainerPage = () => {
   return (
     <div className='containerDiv' style={{textAlign: 'center'}}>

@@ -2,12 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { SiGhost } from 'react-icons/si';
 
+
+//Rotating project logo
 const RotatingLogo = () => {
   const [windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined,
   });
 
+  //Hover animation
   const buttonVariants = {
     rest: {
       scale: 1,
@@ -44,9 +47,11 @@ const RotatingLogo = () => {
     return null; // or some fallback content
   }
 
+  //adjust size based on width of screen
   const logoSize = windowSize.width <= 768 ? 120 : 170;
   const textSize = windowSize.width <= 768 ? 7 : 25;
 
+  //Rotate logo
   const logoVariants = {
     initial: {
       rotate: 0,

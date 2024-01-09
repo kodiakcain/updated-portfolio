@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import SidebarEdit from '../src/app/components/SidebarEdit'; // Adjust the path accordingly
+import SidebarEdit from '../src/app/components/SidebarEdit'; 
 import { motion, useAnimation } from 'framer-motion';
-import '../styles/Skills.modules.css'; // Create a module CSS file for your Skills page
+import '../styles/Skills.modules.css'; 
 import '../src/app/globals.css';
 import ContainerPage from '../src/app/components/ContainerPage';
 import ContainerPage2 from '../src/app/components/ContainerPage2';
 import ContainerPage3 from '../src/app/components/ContainerPage3';
 
 function Skills() {
+
+  //Hook for mounting
   const [isMounted, setIsMounted] = useState(false);
   const controls = useAnimation();
 
+  //Mount 
   useEffect(() => {
     setIsMounted(true);
   }, []);
@@ -22,6 +25,7 @@ function Skills() {
   }, [isMounted, controls]);
 
   return (
+    //Add animation
     <motion.div
       initial={{ opacity: 0 }}
       animate={controls}

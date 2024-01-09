@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
+//Particles for home screen, purple, slow movement
 const Particle = () => {
     const [init, setInit] = useState(false);
   

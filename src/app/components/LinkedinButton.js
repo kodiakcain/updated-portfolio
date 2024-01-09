@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaLinkedin } from 'react-icons/fa';
 
-const GithubButton = () => {
+const LinkedinButton = () => {
   const buttonVariants = {
     rest: {
       scale: 1,
@@ -25,4 +25,4 @@ const GithubButton = () => {
   );
 };
 
-export default GithubButton;
+export default LinkedinButton;

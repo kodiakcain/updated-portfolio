@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
+
+//Sidebar on home screen
 const Sidebar = () => {
 
     const buttonVariants = {

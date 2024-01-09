@@ -1,7 +1,7 @@
 import '../../../styles/ContainerPage.modules.css'
 import { FaJava } from "react-icons/fa";
 
-
+//Second container in Skills
 const ContainerPage2 = () => {
   return (
     <div className='containerDiv' style={{textAlign: 'center'}}>

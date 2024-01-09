@@ -1,16 +1,19 @@
 'use client'
 import '../../styles/Home.modules.css';
 import GithubButton from './components/GithubButton';
-import LinkedinButton from './components/LinkedinButton'
-import GmailButton from './components/GmailButton'
-import RotatingLogo from './components/RotatingLogo'
+import LinkedinButton from './components/LinkedinButton';
+import GmailButton from './components/GmailButton';
+import RotatingLogo from './components/RotatingLogo';
 import Sidebar from './components/Sidebar';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import Particle from './components/Particle'
+import Particle from './components/Particle';
 
+//Home page
 export default function Home() {
+
+  //Mount hook
   const [isMounted, setIsMounted] = useState(false);
   const controls = useAnimation();
 

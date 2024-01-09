@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import SidebarEdit from '../src/app/components/SidebarEdit'; // Adjust the path accordingly
-import '../styles/Contact.modules.css'; // Create a module CSS file for your Skills page
-import '../src/app/globals.css'
+import SidebarEdit from '../src/app/components/SidebarEdit';
+import '../styles/Contact.modules.css'; 
+import '../src/app/globals.css';
 import { motion, useAnimation } from 'framer-motion';
 import { TbBrandGmail } from "react-icons/tb";
-import LinkedinButton from '../src/app/components/LinkedinButton'
-import GmailButton from '../src/app/components/GmailButton'
+import LinkedinButton from '../src/app/components/LinkedinButton';
 
-
+//Contact page
 function Contact() {
-    const [isMounted, setIsMounted] = useState(false);
+
+  //Hook to control mounted state
+  const [isMounted, setIsMounted] = useState(false);
   const controls = useAnimation();
 
+  //Mounting
   useEffect(() => {
     setIsMounted(true);
   }, []);
@@ -21,7 +23,9 @@ function Contact() {
       controls.start({ opacity: 1 });
     }
   }, [isMounted, controls]);
+
   return (
+    //Animation for button
     <motion.div
       initial={{ opacity: 0 }}
       animate={controls}
