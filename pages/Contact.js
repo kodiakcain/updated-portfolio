@@ -78,9 +78,12 @@ function Contact() {
           <div className='vertPad'>
           <TextField id="outlined-basic" label="Subject" variant="outlined" color='secondary' style={{backgroundColor: '#d3d3d3'}} />
           </div>
+            
+          <div className='vertPad'>
           <TextField id="outlined-basic" label="Body" variant="outlined" color='secondary' style={{backgroundColor: '#d3d3d3'}} />
+          </div>
           <br></br>
-          <button onClick={handleEmail} style={{color: '#d3d3d3'}} className='submitButton'>submit</button>
+          <button onClick={handleEmail} style={{color: '#d3d3d3'}} className='submitButton'>send email</button>
         </div>
 
       </main> 
