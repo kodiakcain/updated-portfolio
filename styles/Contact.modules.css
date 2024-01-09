@@ -45,6 +45,26 @@
     
 }
 
+.textBoxes {
+    bottom: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.submitButton {
+    border-width: 1px;
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.vertPad {
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 768px) {  
     .logoMove {
         display: flex;

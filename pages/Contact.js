@@ -5,6 +5,8 @@ import '../src/app/globals.css';
 import { motion, useAnimation } from 'framer-motion';
 import { TbBrandGmail } from "react-icons/tb";
 import LinkedinButton from '../src/app/components/LinkedinButton';
+const { MailSlurp } = require('mailslurp-client');
+import TextField from '@mui/material/TextField';
 
 //Contact page
 function Contact() {
@@ -12,6 +14,8 @@ function Contact() {
   //Hook to control mounted state
   const [isMounted, setIsMounted] = useState(false);
   const controls = useAnimation();
+  const[subject, setSubject] = useState("");
+  const[body, setBody] = useState("");
 
   //Mounting
   useEffect(() => {
@@ -24,8 +28,22 @@ function Contact() {
     }
   }, [isMounted, controls]);
 
-  const axios = require("axios");
-  const API_KEY = "your-mailslurp-api-key";
+  const handleEmail = async () => {
+    const API_KEY = process.env.NEXT_PUBLIC_MAILSLURP_API_KEY;
+
+    const mailslurp = new MailSlurp({
+      apiKey: API_KEY,
+    });
+  
+    const sent = await mailslurp.inboxController.sendEmailAndConfirm({
+      inboxId: process.env.NEXT_PUBLIC_MAILSLURP_INBOX,
+      sendEmailOptions: {
+        to: [process.env.NEXT_PUBLIC_MAILSLURP_EMAIL],
+        subject: 'Test email',
+        body: 'Hello from MailSlurp'
+      }
+    });
+  }
 
   return (
     //Animation for button
@@ -49,10 +67,24 @@ function Contact() {
             <a href="https://www.linkedin.com/in/cain-clifton/" target='_blank'>
             <LinkedinButton size={40} color='white' className='p-24'></LinkedinButton>
             </a>
+            
+            
             </div>
+            
           </div>
+          
         </div>
+        <div style={{display: 'flex', flexDirection: 'column'}} className='textBoxes'>
+          <div className='vertPad'>
+          <TextField id="outlined-basic" label="Subject" variant="outlined" color='secondary' style={{backgroundColor: '#d3d3d3'}} />
+          </div>
+          <TextField id="outlined-basic" label="Body" variant="outlined" color='secondary' style={{backgroundColor: '#d3d3d3'}} />
+          <br></br>
+          <button onClick={handleEmail} style={{color: '#d3d3d3'}} className='submitButton'>submit</button>
+        </div>
+
       </main> 
+  
     </div>
     </motion.div>
   );
