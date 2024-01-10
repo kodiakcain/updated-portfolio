@@ -10,7 +10,6 @@ import TextField from '@mui/material/TextField';
 import Alert from '@mui/material/Alert';
 import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
-import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
 
 // Contact page
@@ -84,6 +83,18 @@ function Contact() {
     setSentEmail(true);
   };
 
+  //Button hover
+  const buttonVariants = {
+    rest: {
+      scale: 1,
+      boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.1)',
+    },
+    hover: {
+      scale: 1.1,
+      boxShadow: '0px 0px 16px rgba(0, 0, 0, 0.2)',
+    },
+  };
+
   const handleSubjectChange = (event) => {
     setSubject(event.target.value);
   };
@@ -104,9 +115,15 @@ function Contact() {
             <div className='widthEd'>
               <SidebarEdit />
               <div className='logoMove'>
+              <motion.button
+            variants={buttonVariants}
+            whileHover="hover"
+            whileTap="rest"
+            >
                 <a href='mailto:americancain@gmail.com?subject=Message from Portfolio' target='_blank'>
-                  <TbBrandGmail size={33} color='white' className='p-24'></TbBrandGmail>
+                  <TbBrandGmail size={30} color='white' className='p-24'></TbBrandGmail>
                 </a>
+            </motion.button>
                 <a href='https://www.linkedin.com/in/cain-clifton/' target='_blank'>
                   <LinkedinButton size={40} color='white' className='p-24'></LinkedinButton>
                 </a>
@@ -220,6 +237,11 @@ function Contact() {
                   </Alert>
                 </Collapse>}
               </div>
+              <motion.button
+            variants={buttonVariants}
+            whileHover="hover"
+            whileTap="rest"
+            >
               <TextField
                 id='outlined-basic'
                 label='Subject'
@@ -229,8 +251,14 @@ function Contact() {
                 value={subject}
                 onChange={handleSubjectChange}
               />
+            </motion.button>
             </div>
             <div className='vertPad'>
+            <motion.button
+            variants={buttonVariants}
+            whileHover="hover"
+            whileTap="rest"
+            >
               <TextField
                 id='outlined-basic'
                 label='Body'
@@ -240,11 +268,19 @@ function Contact() {
                 value={body}
                 onChange={handleBodyChange}
               />
+            </motion.button>
+              
             </div>
             <br></br>
-            <button onClick={handleEmail} style={{ color: '#d3d3d3' }} className='submitButton'>
-              send email
-            </button>
+                <motion.button
+            variants={buttonVariants}
+            whileHover="hover"
+            whileTap="rest"
+            >
+                <button onClick={handleEmail} style={{ color: '#d3d3d3' }} className='submitButton'>
+                  send email
+                </button>
+            </motion.button> 
           </div>
         </main>
       </div>

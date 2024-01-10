@@ -6,9 +6,9 @@ const ContainerPage4 = () => {
     <div className='containerDiv' style={{textAlign: 'center'}}>
         <p style={{fontSize: '40px'}}>Uranym - Full Stack Web App</p>
         <hr></hr>
-        <a href="https://uranym.com" style={{color: 'purple'}}>Uranym.com</a>
+        <a href="https://uranym.com" style={{color: 'purple'}} target='_blank'>Uranym.com</a>
         <br></br>
-        <a href="https://github.com/kodiakcain/uranym2" style={{color: 'purple'}}>Github</a>
+        <a href="https://github.com/kodiakcain/uranym2" style={{color: 'purple'}} target='_blank'>Github</a>
         <br></br>
         <p> This was created using <b><u>React</u></b>, <b><u>Firebase Firestore</u></b>, <b><u>Google Cloud</u></b>,
         and everthing works. Users can <b><u>add and delete tasks</u></b>, as well as <b><u>check off tasks</u></b>,
@@ -21,7 +21,7 @@ const ContainerPage4 = () => {
         <br></br>
         <h1><u>Future Plans</u></h1>
             <p>I would like to add <b><u>Framer Motion</u></b>, <b><u>TailwindCSS</u></b>, and add
-          <b><u>security rules to Firebas Firestore database</u></b>.</p>
+          <b> <u>security rules to Firebase Firestore database</u></b>.</p>
           </div>
          
   );
