@@ -372,4 +372,135 @@
     }
   }
 
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .firstWordName {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+        padding-right: 6px;
+    }
+    
+    .secondWordName {
+        font-family: 'Exo 2', sans-serif;
+        color: grey;
+    }
+    
+    .githubStyle {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+    }
+    
+    .linkedinStyle {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+    }
+    
+    .gmailStyle {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+    }
+    
+    .topDiv {
+        top: 3vh;
+        padding: '10px';
+        padding-left: '10px';
+        position: fixed;
+        left: 16vw;
+    
+    }
+    
+    .topDivLinks {
+        top: 5vh;
+        display: 'flex';
+        flex-direction: 'row';
+        position: fixed;
+        right: 18vw;
+    }
+    
+    .linkPad {
+        padding-right: 9px;
+    }
+    
+    .slogan {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+    }
+    
+    .sloganBelow {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+    }
+    
+    .sloganFinal {
+        font-family: 'Exo 2', sans-serif;
+        color: rgb(255, 12, 12); 
+    }
+    
+    .rotatingLogo {
+        font-family: 'Exo 2', sans-serif;
+        color: rgb(255, 255, 255);
+        left: 425px; 
+        position: fixed;
+        top: 485px;
+    }
+    
+    .logoText {
+        font-family: 'Exo 2', sans-serif;
+        position: fixed; /* Fixed position */
+        top: 62.5%; /* Adjust based on your design */
+        left: 30.5%; /* Adjust based on your design */
+        color: rgb(255, 255, 255); 
+    }
+    
+    .skillsText {
+        font-family: 'Exo 2', sans-serif;
+        position: fixed; /* Fixed position */
+        top: 50%; /* Adjust based on your design */
+        right: 37%; /* Adjust based on your design */
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+    
+    .javaLogo {
+        font-family: 'Exo 2', sans-serif;
+        position: fixed; /* Fixed position */
+        top: 55%; /* Adjust based on your design */
+        right: 37%; /* Adjust based on your design */
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+    
+    .avatar {
+        bottom: 0%;
+        right: 0%;
+        position: fixed;
+        height: 67%;
+        width: 50%;  
+    }
+    
+    .sideBarDiv {
+        border-width: 1px;
+        padding: 10px;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .midDiv {
+        display: flex; 
+        flex-direction: row;
+        padding-top: 37vh;
+    }
+    
+    .rotateText {
+        margin: 0; 
+        font-size: '50px'; 
+        font-weight: 'bold'; 
+    }
+    
+    .leftPad {
+        padding-left: 115px;
+    }
+  }
+
   

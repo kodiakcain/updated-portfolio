@@ -8,6 +8,8 @@ const ContainerPage4 = () => {
         <hr></hr>
         <a href="https://uranym.com" style={{color: 'purple'}}>Uranym.com</a>
         <br></br>
+        <a href="https://github.com/kodiakcain/uranym2" style={{color: 'purple'}}>Github</a>
+        <br></br>
         <p> This was created using <b><u>React</u></b>, <b><u>Firebase Firestore</u></b>, <b><u>Google Cloud</u></b>,
         and everthing works. Users can <b><u>add and delete tasks</u></b>, as well as <b><u>check off tasks</u></b>,
         which get displayed to a chart showing how many are complete and incomplete. All data is stored to a database.

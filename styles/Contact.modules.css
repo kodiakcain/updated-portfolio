@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-top: 200px;
+    padding-top: 170px;
     text-decoration: underline;
 }
 
@@ -61,6 +61,12 @@
     font-family: 'Exo 2', sans-serif;
 }
 
+.text {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
 .vertPad {
     padding-bottom: 10px;
 }
@@ -71,9 +77,22 @@
         justify-content: space-between;
         align-self: center;
         justify-content: center;
-        width: 44vw;
+        width: 44vw;   
+    }
+    .textBoxes {
+        bottom: 80vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
         
-        
+    }
+
+    .midContact {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 55px;
     }
 }
 
