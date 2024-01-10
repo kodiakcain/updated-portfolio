@@ -39,7 +39,7 @@ function Resume() {
         </a>
         
         <div className='leftPad'>
-        <iframe src="/CainClifton-ResumeCurr.jpg" className='frame' title='resume' allowFullScreen></iframe>
+        <iframe src="/CainCliftonCurrentResume.jpg" className='frame' title='resume' allowFullScreen></iframe>
         </div>
         </div>
         </div>
