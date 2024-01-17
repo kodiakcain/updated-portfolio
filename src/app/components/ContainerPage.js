@@ -35,7 +35,7 @@ const ContainerPage = () => {
           </div>
          <div style={{width: "50%"}}>
           <p><u>Uranym</u></p>
-          <a href="https://uranym.com" target='_blank' style={{color: 'purple'}}>Uranym.com</a>
+          <a href="https://uranym.com" target='_blank' style={{color: 'purple'}}><u>Uranym.com</u></a>
           <p>Made using React, Firebase, & Google Cloud.</p>
          </div>
          </div>

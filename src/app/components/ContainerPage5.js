@@ -7,7 +7,7 @@ const ContainerPage5 = () => {
         <p style={{fontSize: '40px'}}>This Portfolio</p>
         <hr></hr>
         
-        <a href='https://github.com/kodiakcain/updated-portfolio' target='_blank' style={{color: 'purple'}}>Github</a>
+        <a href='https://github.com/kodiakcain/updated-portfolio' target='_blank' style={{color: 'purple'}}><u>Github</u></a>
         <p> This was created using <b><u>React</u></b>, <b><u>Next JS</u></b>, <b><u>Framer Motion</u></b>,
         and <b><u>TailwindCSS</u></b>. I learned a lot about <b><u>Front-End Design</u></b>, <b><u>animations</u></b>,
         and optimizing for mobile using <b><u>media queries</u></b>. 

@@ -12,6 +12,10 @@
     max-width: 400px;
 }
 
+.niceText {
+    font-family: 'Exo 2', sans-serif;
+}
+
 .containerDiv2 {
     border-width: 1px;
     padding: 10px;
