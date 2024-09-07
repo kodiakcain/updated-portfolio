@@ -34,12 +34,12 @@ function Resume() {
         <div className='ResumeTop'>
         <SidebarEdit/>
         <div>
-        <a href="/CainClifton-ResumeCurr.jpg" download="CainClifton-ResumeCurr.jpg">
+        <a href="/Cain_Clifton_Optimized_Resume.jpg" download="Cain_Clifton_Optimized_Resume.jpg">
         <MdSaveAlt size={50} color={'white'}></MdSaveAlt>
         </a>
         
         <div className='leftPad'>
-        <iframe src="/CainCliftonCurrentResume.jpg" className='frame' title='resume' allowFullScreen></iframe>
+        <iframe src="/Cain_Clifton_Optimized_Resume.jpg" className='frame' title='resume' allowFullScreen></iframe>
         </div>
         </div>
         </div>

@@ -15,17 +15,18 @@
     "@mui/material": "^5.15.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.0.3",
-    "axios": "^1.6.5",
+    "axios": "^1.7.7",
     "dotenv-webpack": "^8.0.1",
     "framer-motion": "^10.17.4",
     "mailslurp": "^0.0.1-security",
     "mailslurp-client": "^15.17.4",
-    "next": "14.0.4",
+    "next": "^14.2.8",
     "random-words": "^2.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
-    "react-modal": "^3.16.1"
+    "react-modal": "^3.16.1",
+    "updated-portfolio": "file:"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
