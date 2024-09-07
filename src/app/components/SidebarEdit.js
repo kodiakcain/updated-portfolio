@@ -18,6 +18,17 @@ const SidebarEdit = () => {
       };
   return (
     <div className='sideBarDiv'>
+       <Link href='/Projects'>
+      <motion.button
+        variants={buttonVariants}
+        whileHover="hover"
+        whileTap="rest"
+        >
+          <p>&lt;Projects/&gt;</p>
+          </motion.button>
+      </Link>
+      <br />
+      <br></br>
       <Link href='/Skills'>
         <motion.button
         variants={buttonVariants}
